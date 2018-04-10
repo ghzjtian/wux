@@ -3,6 +3,7 @@
         <view class="items">
         	<view class="item {{ type === 'grid' ? 'current' : '' }}" data-type="grid" bindtap="modSwitch">
 	            <view class="ico_grid">
+              <!-- 显示的图片是否是激活状态  -->
 	            	<image wx:if="{{ type === 'table' }}" class="ico_img" src="../../assets/images/iconfont-grid.png" />
 	            	<image wx:if="{{ type === 'grid' }}" class="ico_img" src="../../assets/images/iconfont-grid-active.png" />
 	            </view>
